@@ -1,0 +1,11 @@
+|__file1
+|__folder1
+   |__file2
+   |__folder2
+   |  |__folder3
+   |     |__folder4
+   |     |  |__folder5
+   |     |__file4
+   |__folder6
+      |__folder7
+         |__file5
