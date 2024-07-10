@@ -23,7 +23,7 @@ find "$test_dir" -type f -name "*.in" | while read -r input_file; do
     
     result_output="$temp_dir/$(basename "${input_file%.in}.out")"
     
-    $program $majors $students $courses $teachers < "$input_file" > "$result_output"
+    $program < "$input_file" > "$result_output"
     
     if diff -q -w "$result_output" "$expected_output" > /dev/null; then
         echo -e "${GREEN}PASS: $(basename "$input_file")${NC}"
