@@ -80,6 +80,7 @@ Note: There is no intersection at the starting or destination stations.
 The program outputs a single integer: the minimum time required to travel from the starting station to the destination station.
 
 A sample test case is written as follows.
+<img src="./sample.jpg" alt="A train network">
 * **Input**
 ```
 4
