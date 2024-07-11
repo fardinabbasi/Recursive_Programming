@@ -44,11 +44,11 @@ folder3 2
 ```
 |__file1
 |__folder1
-●●●|__file2
-●●●|__file3
-●●●|__folder2
-●●●|●●|__file4
-●●●|__folder3
+   |__file2
+   |__file3
+   |__folder2
+   |  |__file4
+   |__folder3
 ```
 ### How to run
 To run the test cases automatically, execute the following bash script:
