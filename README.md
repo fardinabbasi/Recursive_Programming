@@ -25,7 +25,7 @@ The indentation of each item indicates its relationship to the previous item.
 When displaying the depth, the following is considered:
 
 1. For each new depth level, add three characters to the indentation.
-2. These three characters can be either three spaces ( ) or one open branch and two spaces (| ). Open branches indicate that the contents of a folder are not yet fully displayed and will continue on subsequent lines.
+2. These three characters can be either three spaces `(   )` or one open branch and two spaces `(|  )`. Open branches indicate that the contents of a folder are not yet fully displayed and will continue on subsequent lines.
 3. After printing the name of the last item in a folder and before displaying the contents of that item, the branch for that folder closes and does not continue further.
 
 A sample test case is written as follows.
