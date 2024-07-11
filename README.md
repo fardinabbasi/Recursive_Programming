@@ -51,6 +51,7 @@ folder3 2
 ●●●|__folder3
 ```
 ### How to run
+To run the test cases automatically, execute the following bash script:
 ```console
 ./judge.sh
 ```
