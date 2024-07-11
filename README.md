@@ -55,3 +55,50 @@ To run the test cases automatically, execute the following bash script:
 ```console
 ./judge.sh
 ```
+## Train Stations
+This program is designed to find the shortest time required to travel from a starting train station to a destination station on a train network. The train network is structured such that:
+* Each train line intersects with at most one other train line at a station.
+* Each station can be an intersection point for at most two train lines.
+* Moving from one station to the next takes 1 minute.
+* Changing train lines at a station takes 2 minutes.
+
+### Input Format
+The input consists of several lines as follows:
+
+1. The first line contains an integer `n`, which represents the number of train lines.
+
+2. For the next 2n lines:
+   * For each train line from 1 to n, the first line contains the number of stations on that line.
+   * The second line contains 0 or the number of the intersecting train line for each station on that line. A 0 indicates that there is no intersection at that station.
+3. The last line contains:
+   * The number of the starting train line.
+   * The station number on the starting line where the journey begins.
+   * The number of the destination train line.
+   * The station number on the destination line where the journey ends.
+Note: There is no intersection at the starting or destination stations.
+### Output Format
+The program outputs a single integer: the minimum time required to travel from the starting station to the destination station.
+
+A sample test case is written as follows.
+* **Input**
+```
+4
+3
+0 4 0
+6
+0 0 4 0 3 0
+5
+0 4 0 2 0
+4
+1 2 0 3
+2 2 3 5
+```
+* **Output**
+```
+6
+```
+### How to run
+To run the test cases automatically, execute the following bash script:
+```console
+./judge.sh
+```
