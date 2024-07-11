@@ -59,8 +59,8 @@ To run the test cases automatically, execute the following bash script:
 This program is designed to find the shortest time required to travel from a starting train station to a destination station on a train network. The train network is structured such that:
 * Each train line intersects with at most one other train line at a station.
 * Each station can be an intersection point for at most two train lines.
-* Moving from one station to the next takes 1 minute.
-* Changing train lines at a station takes 2 minutes.
+* Moving from one station to the next takes <ins>1 minute</ins>.
+* Changing train lines at a station takes <ins>2 minutes</ins>.
 
 ### Input Format
 The input consists of several lines as follows:
