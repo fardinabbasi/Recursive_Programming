@@ -75,6 +75,7 @@ The input consists of several lines as follows:
    * The station number on the starting line where the journey begins.
    * The number of the destination train line.
    * The station number on the destination line where the journey ends.
+  
 Note: There is no intersection at the starting or destination stations.
 ### Output Format
 The program outputs a single integer: the minimum time required to travel from the starting station to the destination station.
