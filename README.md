@@ -12,7 +12,7 @@ In the next n lines, information about each item is provided. In line i, the ite
 ```
 file 3
 ```
-Items within a folder are not necessarily listed consecutively in the input, but it is guaranteed that an item's folder appears before the item in the input. The root folder is identified by number 0.
+Items within a folder are not necessarily listed consecutively in the input, but it is guaranteed that an item's folder appears before the item in the input. The **root folder** is identified by <ins>number 0</ins>.
 ### Output Format
 Each line of the output may contain the following:
 
